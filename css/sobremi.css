@@ -1,9 +1,10 @@
 .sobre{
     padding: 3% 40% 3% 10%;
-    background-color: #EAF2FD;
+    background-color: #000000;
 }
 
 .sobre_p1{
     font-size: 2rem;
     font-weight: 700;
+    color: rgb(255, 217, 0);
 }

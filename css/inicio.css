@@ -30,8 +30,18 @@ body{
 .nave_caja2_a{
     text-decoration: none;
     color: #ffffff;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1;
     padding: 1%;
+    border-bottom: 1px solid #2c2c2c;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nave_caja2_a p {
+    margin: 10px 0;
+    text-align: center;
 }
 
 .nave_caja2_a:hover{
@@ -59,10 +69,26 @@ body{
     border-radius: 100%;
 }
 
+.prese_caja2_saludo{
+    width: 15%;
+    position: absolute;
+    top: 140px;
+    left: 1100px;
+    
+}
+
 .prese_caja1_p1{
     font-weight: 700;
     font-size: 2.5rem;
     margin: 0;
+}
+
+.prese_caja1_p1_animacion{
+    color: rgb(255, 217, 0);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0;
+    font-style: normal;
 }
 
 .prese_caja1_p2{
@@ -70,7 +96,7 @@ body{
 }
 
 .prese_caja1_redes{
-    width: 60%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
 }

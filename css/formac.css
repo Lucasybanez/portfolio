@@ -1,6 +1,6 @@
 .formac{
     padding: 3% 10%;
-    background-color: #EAF2FD;
+    background-color: #000000;
 }
 
 .formac_contenedor{
@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .formac_contenedor_caja_div_img{
@@ -23,4 +24,5 @@
 
 .formac_contenedor_caja_tag{
     font-weight: 700;
+    color: rgb(255, 217, 0);
 }
