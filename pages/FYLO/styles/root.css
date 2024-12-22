@@ -1,0 +1,13 @@
+:root{
+    --color1: rgb(28,34,48);
+    --color2: rgb(12,21,36);
+    --color3: rgb(33,41,60);
+    --texto1: #FFFFFF;
+    --texto2: #dddddd;
+    --texto3: rgb(108,218,209);
+    
+}
+
+body{
+    background-color: var(--color1);
+}

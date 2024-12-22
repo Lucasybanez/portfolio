@@ -1,0 +1,7 @@
+.boton1{
+    padding: 0.5% 4%;
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 250px;
+    background: linear-gradient(rgb(82,202,215),rgb(65,173,211))
+}

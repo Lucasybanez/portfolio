@@ -1,10 +1,15 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Ybañez</title>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/inicio.css">
     <link rel="stylesheet" href="./css/sobremi.css">
     <link rel="stylesheet" href="./css/skills.css">
@@ -12,23 +17,27 @@
     <link rel="stylesheet" href="./css/exp.css">
     <link rel="stylesheet" href="./css/contacto.css">
     <link rel="stylesheet" href="./css/mobileView.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
 <body>
     <nav>
         <div class="nave">
             <p class="nave_caja1">Lucas G. Ybañez</p>
             <div class="nave_caja2">
-                <a href="#sobre-mi" class="nave_caja2_a">Sobre mí</a>
-                <a href="#skills" class="nave_caja2_a">Skills</a>
-                <a href="#hobbies" class="nave_caja2_a">Hobbies</a>
-                <a href="#formacion" class="nave_caja2_a">Formación</a>
-                <a href="#proyectos" class="nave_caja2_a">Proyectos</a>
-                <a href="#contacto" class="nave_caja2_a">Contacto</a>
+                <a href="#sobre-mi" class="nave_caja2_a">SOBRE MÍ</a>
+                <a href="#skills" class="nave_caja2_a">SKILLS</a>
+                <a href="#hobbies" class="nave_caja2_a">HOBBIES</a>
+                <a href="#formacion" class="nave_caja2_a">FORMACIÓN</a>
+                <a href="#proyectos" class="nave_caja2_a">PROYECTOS</a>
+                <a href="#contacto" class="nave_caja2_a">CONTACTO</a>
             </div>
         </div>
     </nav>
     <section>
         <div class="prese">
-            <div class="prese_caja1">
+            <div class="prese_caja1" data-aos="fade-right">
                 <p class="prese_caja1_p1">Hola, mi nombre es Lucas G. Ybañez y soy desarrollador</p>
                 <p class="prese_caja1_p2">Me dedico al desarrollo web fullstack y software de escritorio.
                 </p>
@@ -39,18 +48,18 @@
                     <a href="" class="nave_caja2_a">Currículo <img src="./img/iconoFlecha.png" alt=""></a>
                 </div>
             </div>
-            <img src="./img/fotoP.jpg" alt="" class="prese_caja2">
+            <img src="./img/fotoP.jpg" alt="" class="prese_caja2" data-aos="flip-left">
         </div>
     </section>
 
     <section id="sobre-mi">
         <div class="sobre">
-            <p class="sobre_p1">Sobre mí</p>
-            <p>Nacido en Argentina, desde pequeño tuve una gran afinidad a la técnología. Con el pasar de los años aprendí sobre diseño gráfico, edición de vídeo, y marketing.</p>
-            <p>En el año 2020 comenzó mi introducción a la programación con C++, próximamente usaría Java para desarrollo android y otras tecnologías.</p>
-            <p>Actualmente con 22 años me encuentro terminando mi formación como desarrollador web en el proyecto Orcale ONE con Alura latam y Codo a codo 4.0.</p>
-            <p>Este 2023 cursaré mi último año en la tecnicatura universitaria en programación de la UTN, y mi formación en Rolling Code, donde aprenderé nuevas tecnologías como React y NodeJS.</p>
-            <img src="./img/firma.png" alt="">
+            <p class="sobre_p1" data-aos="fade-up">Sobre mí</p>
+            <p data-aos="fade-up">Nacido en Argentina, desde pequeño tuve una gran afinidad a la técnología. Con el pasar de los años aprendí sobre diseño gráfico, edición de vídeo, y marketing.</p>
+            <p data-aos="fade-up">En el año 2020 comenzó mi introducción a la programación con C++, próximamente usaría Java para desarrollo android y otras tecnologías.</p>
+            <p data-aos="fade-up">Actualmente con 22 años me encuentro terminando mi formación como desarrollador web en el proyecto Orcale ONE con Alura latam y Codo a codo 4.0.</p>
+            <p data-aos="fade-up">Este 2023 cursaré mi último año en la tecnicatura universitaria en programación de la UTN, y mi formación en Rolling Code, donde aprenderé nuevas tecnologías como React y NodeJS.</p>
+            <img src="./img/firma.png" alt="" data-aos="flip-left">
         </div>
     </section>
 
@@ -58,7 +67,7 @@
         <div class="skills" id="skills">
             <p class="skills_titulo">Skills</p>
             <p>Programación</p>
-            <div class="skills_contenedor">
+            <div class="skills_contenedor" data-aos="flip-down">
                 <div class="skills_caja">
                     <img src="./img/iconoHtml.png" alt="">
                     <p>HTML 5</p>
@@ -86,7 +95,7 @@
             </div>
 
             <p>Multimedia</p>
-            <div class="skills_contenedor">
+            <div class="skills_contenedor" data-aos="flip-down">
                 <div class="skills_caja">
                     <img src="./img/iconoPs.png" alt="">
                     <p>Photoshop</p>
@@ -108,7 +117,7 @@
 
         <div class="skills">
             <p class="skills_titulo">Soft skills</p>
-            <div class="skills_contenedor">
+            <div class="skills_contenedor" data-aos="flip-down">
                 <div class="skills_caja">
                     <img src="./img/iconoLiderazgo.png" alt="">
                     <p>Liderazgo</p>
@@ -131,7 +140,7 @@
 
         <div class="skills" id="hobbies">
             <p class="skills_titulo">Hobbies</p>
-            <div class="skills_contenedor">
+            <div class="skills_contenedor" data-aos="flip-down">
                 <div class="skills_caja">
                     <img src="./img/iconoGuitarra.png" alt="">
                     <p>Tocar guitarra</p>
@@ -163,7 +172,7 @@
         <div class="formac" >
             <p class="skills_titulo">Formación académica</p>
             <div class="formac_contenedor">
-                <div class="formac_contenedor_caja">
+                <div class="formac_contenedor_caja" data-aos="zoom-in">
                     <div class="formac_contenedor_caja_div">
                         <img src="./img/utnlogo.png" alt="" class="formac_contenedor_caja_div_img">
                     </div>
@@ -171,7 +180,7 @@
                     <p>Tec. universitaria en programación</p>
                     <p>2022 - En curso</p>
                 </div>
-                <div class="formac_contenedor_caja">
+                <div class="formac_contenedor_caja" data-aos="zoom-in">
                     <div class="formac_contenedor_caja_div">
                         <img src="./img/rollinglogo.png" alt="" class="formac_contenedor_caja_div_img">
                     </div>
@@ -179,7 +188,7 @@
                     <p>Desarrollo web fullstack: NodeJS</p>
                     <p>En curso</p>
                 </div>
-                <div class="formac_contenedor_caja">
+                <div class="formac_contenedor_caja" data-aos="zoom-in">
                     <div class="formac_contenedor_caja_div">
                         <img src="./img/aluralogo.svg" alt="" class="formac_contenedor_caja_div_img">
                     </div>
@@ -187,7 +196,7 @@
                     <p>Desarrollo web fullstack: Java</p>
                     <p>2022</p>
                 </div>
-                <div class="formac_contenedor_caja">
+                <div class="formac_contenedor_caja" data-aos="zoom-in">
                     <div class="formac_contenedor_caja_div">
                         <img src="./img/codoacodologo.webp" alt="" class="formac_contenedor_caja_div_img">
                     </div>
@@ -200,11 +209,40 @@
     </section>
 
     <section id="proyectos">
+
         <div class="exp">
-            <p class="skills_titulo">Experiencia profesional</p>
+            <p class="skills_titulo mt-5">Experiencia profesional</p>
+
+            
             <div class="exp_contenedor">
-                <img src="./img/web1.jpg" alt="" class="exp_contenedor_caja1">
-                <div class="exp_contenedor_caja2">
+                <img src="./img/web7.PNG" alt="" class="exp_contenedor_caja1" data-aos='flip-left'>
+                <div class="exp_contenedor_caja2" data-aos='fade-up'>
+                    <p class="exp_contenedor_caja2_tag">Página de producto creado con HTML, CSS y Bootstrap</p>
+                    <p>Trabajo práctico grupal de Rolling Code </p>
+                    <a class="exp_contenedor_caja2_button2" href="https://productoslucasybanez.netlify.app/">Ver demo</a>
+
+                </div>
+            </div>
+
+            <div class="exp_contenedor">
+                <img src="./img/web4.png" alt="" class="exp_contenedor_caja1" data-aos='flip-left'>
+                <div class="exp_contenedor_caja2" data-aos='fade-up'>
+                    <p class="exp_contenedor_caja2_tag">Ecommerce creado con HTML, CSS y JavaScript</p>
+                    <p>Challange Oracle (En desarrollo)</p>
+                </div>
+            </div>
+
+            <div class="exp_contenedor">
+                <img src="./img/web6.png" alt="" class="exp_contenedor_caja1" data-aos='flip-left'>
+                <div class="exp_contenedor_caja2" data-aos='fade-up'>
+                    <p class="exp_contenedor_caja2_tag">Perfil personal con HTML, CSS y JavaScript</p>
+                    <p>Pedido de un cliente</p>
+                </div>
+            </div>
+
+            <div class="exp_contenedor">
+                <img src="./img/web1.jpg" alt="" class="exp_contenedor_caja1" data-aos='flip-left'>
+                <div class="exp_contenedor_caja2" data-aos='fade-up'>
                     <p class="exp_contenedor_caja2_tag">Página de conferencia creado con HTML, CSS y JavaScript</p>
                     <p>Trabajo integrador Codo a Codo</p>
                     <a class="exp_contenedor_caja2_button1" href="https://github.com/Lucasybanez/cacpagciudad.github.io">Repositorio</a>
@@ -213,8 +251,18 @@
             </div>
 
             <div class="exp_contenedor">
-                <img src="./img/web2.png" alt="" class="exp_contenedor_caja1">
-                <div class="exp_contenedor_caja2">
+                <img src="./img/web5.jpg" alt="" class="exp_contenedor_caja1" data-aos='flip-left'>
+                <div class="exp_contenedor_caja2" data-aos='fade-up'>
+                    <p class="exp_contenedor_caja2_tag">Portafolio personal creado con HTML, CSS y PHP con base de datos SQL</p>
+                    <p>Trabajo integrador Codo a Codo</p>
+                    <a class="exp_contenedor_caja2_button1" href="https://github.com/Lucasybanez/trayectoEnCodoACodo/tree/main/crudfinal">Repositorio</a>
+                    <a class="exp_contenedor_caja2_button2" href="https://lucasgybanez.site/">Ver demo</a>
+                </div>
+            </div>
+
+            <div class="exp_contenedor">
+                <img src="./img/web2.png" alt="" class="exp_contenedor_caja1" data-aos='flip-left'>
+                <div class="exp_contenedor_caja2" data-aos='fade-up'>
                     <p class="exp_contenedor_caja2_tag">Juego creado con HTML, CSS y JavaScript</p>
                     <p>Challenge Oracle</p>
                     <a class="exp_contenedor_caja2_button1" href="https://github.com/Lucasybanez/onejuegoahorcado.github.io">Repositorio</a>
@@ -223,8 +271,8 @@
             </div>
 
             <div class="exp_contenedor">
-                <img src="./img/web3.png" alt="" class="exp_contenedor_caja1">
-                <div class="exp_contenedor_caja2">
+                <img src="./img/web3.png" alt="" class="exp_contenedor_caja1" data-aos='flip-left'>
+                <div class="exp_contenedor_caja2" data-aos='fade-up'>
                     <p class="exp_contenedor_caja2_tag">Encriptador de texto creado con HTML, CSS y JavaScript</p>
                     <p>Challenge Oracle</p>
                     <a class="exp_contenedor_caja2_button1" href="https://github.com/Lucasybanez/onedesencriptador.github.io">Repositorio</a>
@@ -235,7 +283,64 @@
         </div>
     </section>
 
-    <section id="contacto">
+
+    <section id="contacto" data-aos="fade-up">
+        <div class="contacto">
+            <img src="./img/telefono.png" alt="" class="contacto_caja1">
+            <div class="contacto_caja2">
+                <P class="skills_titulo">Contacto</P>
+                <P>¿Quieres contactarme? Puedo hacerlo a través de mis redes sociales</P>
+
+                <div class="container-fluid">
+
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://kinsta.com/es/wp-content/uploads/sites/8/2019/01/estadisticas-linkedin.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">LinkedIn</h5>
+                                  <p class="card-text">Puedes contactarme vía LinkedIn y seguir mis actividades.</p>
+                                  <a href="https://www.linkedin.com/in/dev-lucas-g-ybanez/" class="btn btn-primary">Ir al perfil</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.blogs.es/14d0d4/whatsapp/1366_2000.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Whatsapp</h5>
+                                  <p class="card-text">Puedes contactarme vía Whatsapp, es la manera más rápida.</p>
+                                  <a href="https://wa.me/5493863400568" class="btn btn-primary">Chatear por whatsapp</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/4BRNEPCCMFGVPNCTLW56JDVB2Q.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Correo electrónico</h5>
+                                  <p class="card-text">Y finalmente puedes contactarme por mi correo electrónico</p>
+                                  <p class="fw-bolder">lybanez@eslibertad.org</p>
+                                </div>
+                              </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                    
+                    
+            </div>
+        </div>
+    </section>
+        
+    <!--
+
+            <section id="contacto" data-aos="fade-up">
         <div class="contacto">
             <img src="./img/telefono.png" alt="" class="contacto_caja1">
             <div class="contacto_caja2">
@@ -251,9 +356,17 @@
         </div>
     </section>
 
+    -->
+
     <footer class="pie">
         <p>Página creada por Lucas G. Ybañez</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

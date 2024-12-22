@@ -1,9 +1,11 @@
+
+
 body{
-    background: #F5F5F5;
+    background: #2c2c2c;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    color: #464646;
+    font-family: raleway;
+    color: #ffffff;
 }
 .nave{
     width: 80%;
@@ -27,7 +29,17 @@ body{
 
 .nave_caja2_a{
     text-decoration: none;
-    color: #464646;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 1%;
+}
+
+.nave_caja2_a:hover{
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+    background-color: black;
+    border-bottom: 1px solid rgb(255, 217, 0);
+    transition: all 0.5s;
 }
 
 .prese{
