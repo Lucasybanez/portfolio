@@ -1,12 +1,23 @@
 .skills{
-    width: 80%;
-    margin: 9% auto;
+    background: linear-gradient(30deg, rgb(19, 19, 19) 0%, rgba(44,44,44,1) 55%, rgba(88,88,88,1) 100%);
+    width: 100%;
 }
 
 .skills_titulo{
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
+    color: rgb(255, 217, 0);
+}
+
+.skills_subtitulo{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(255, 217, 0);
+    color: black;
+    z-index: 1;
 }
 
 .skills_contenedor{
@@ -14,22 +25,84 @@
     margin: 0 auto;
 }
 
+.hardSkills{
+    width: 100%;
+    padding: 4% 15%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+
+
+.hardSkills_caja1{
+    width: 50%;
+}
+
+.hardSkills_caja1_iconos {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hardSkills_caja1_iconos div {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hardSkills_caja1_titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+    color: rgb(255, 217, 0);
+
+}
+
+.hardSkills_caja1_icono {
+    fill: rgb(255, 217, 0);
+    width: 45px;
+    height: 105px;
+}
+
+.hardSkills_caja2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hardSkills_caja2_monitor {
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .skills_caja{
     width: 150px;
     height: 170px;
-    background-color: white;
+    border-radius: 10px;
     padding: 10px;
     margin-left: 10px;
-
     font-weight: 600;
-
+    
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: end;
+    align-items: center;
+    justify-content: center;
 }
 
 .skills_caja p{
-    margin: 0;
-    margin-top: 5%;
+    margin: 10% 0;
+    text-align: center;
+    color: rgb(255, 217, 0);
+
 }
