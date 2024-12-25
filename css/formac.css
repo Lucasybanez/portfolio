@@ -19,6 +19,10 @@
 }
 
 .formac_contenedor_caja_div_img{
+    width: 70%;
+}
+
+#rollingLogo {
     width: 90%;
 }
 

@@ -17,29 +17,44 @@
 
 .exp_contenedor_caja2{
     width: 50%;
+    text-align: justify;
+}
+
+.exp_contenedor_caja2_etiqueta{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 700;
+    background-color: black;
+    color: rgb(255, 217, 0);
+    text-align: center;
+    padding: 1%;
+    width: 30%;
 }
 
 .exp_contenedor_caja2_tag{
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(255, 217, 0);
+    text-align: center;
 }
 
 .exp_contenedor_caja2_button1{
 
     background-color: rgba(255, 0, 0, 0);
     padding: 2%;    
-    color: #2A7AE4;
-    border: 1px solid #2A7AE4;
+    color: rgb(255, 217, 0);
+    border: 1px solid rgb(255, 217, 0);
     text-decoration: none;
     
 }
 
 .exp_contenedor_caja2_button2{
 
-    background-color: #2A7AE4;
+    background-color:rgb(255, 217, 0);
     padding: 2%;    
-    color: white;
-    border: 1px solid #2A7AE4;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 217, 0);
     text-decoration: none;
     
 }

@@ -1,10 +1,10 @@
 const typed = new Typed('.typed', {
 	strings: [
-		'<span>Desarrollador fullstack.</span>',
+		'<span>Desarrollador FullStack.</span>',
 		'<span>Emprendedor.</i>',
 		'<span>Escritor.</i>',
 		'<span>Desarrollador Android.</i>',
-		'<span>Diseñador gráfico.</i>',
+		'<span>Diseñador Gráfico.</i>',
 		'<span>Activista.</i>',
 	],
 

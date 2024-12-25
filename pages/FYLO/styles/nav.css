@@ -1,9 +1,0 @@
-.nav_caja2 ul{
-    list-style: none;
-    padding: 0;
-}
-
-.nav_caja2 a{
-    text-decoration: none;
-    color: var(--texto2);
-}

@@ -1,22 +1,52 @@
 @media (max-width:768px){
-    .nave_caja2{
+    .nave{
         display: none;
     }
 
     .prese{
+        height: 80vh;
         flex-direction: column-reverse;
-        align-items: flex-start;
-        justify-content: space-around;
+        justify-content: center;
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .prese_anim{
+        height: 80vh;
     }
     
 
     .prese_caja1{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .prese_caja1_p1{
-        font-size: 1.4rem;
+        font-size: 2rem;
         width: 100%;
+        text-align: center;
+    }
+
+    .prese_caja1_p2 {
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .prese_caja1_p1_animacion{
+        font-size: 1.7rem;
+        text-align: center;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .typed-cursor{
+        font-size: 1.7rem;
     }
 
     .prese_caja1_redes{
@@ -27,13 +57,14 @@
     }
 
     .prese_caja2{
-        width: 30%;
+        width: 60%;
         margin-bottom: 3%;
     }
 
     .nave_caja2_a{
         display: flex;
         align-items: center;
+        width: 100px;
     }
 
     .nave_caja2_a img{
@@ -48,6 +79,34 @@
 
     .skills_contenedor{
         flex-wrap: wrap;
+    }
+
+    .hardSkills{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .hardSkills_caja1{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .hardSkills_caja1_titulo{
+        font-size: 1.7rem;
+        text-align: center;
+
+    }
+
+    .hardSkills_caja2{
+        width: 100%;
+        order: -1;
+    }
+
+    .hardSkills_caja2_monitor{
+        width: 100%;
+        margin: 0;
+        margin-top: 15%;
+        padding: 0;
     }
 
     .skills_caja{
@@ -65,7 +124,7 @@
 
     .exp_contenedor{
         flex-direction: column;
-        margin: 30% 0;
+        margin: 20% 0;
     }
 
     .exp_contenedor_caja1{
@@ -75,7 +134,14 @@
     .exp_contenedor_caja2{
         width: 100%;
     }
+    .exp_contenedor_caja2_etiqueta{
+        width: 100%;
+    }
 
+    .exp_contenedor_caja2_tag{
+        font-size: 1.5rem;
+        margin-top: 5%;
+    }
     .exp_contenedor_caja2_button1{
         padding: 3%;
     }
